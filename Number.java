@@ -1,19 +1,14 @@
 import java.util.Scanner;
 class Number
 {
-public static void main(String[],arg)
+public static void main(String[] arg)
 {
-int a,i;
-Scanner in=new Scanner(System.in);
-a=in.nextInt();
-if(i>10&&i<50)
+int n,i,a=0;
+n=in.nextInt();
+for(i=1;i<=n;i++)
 {
-	if(a%2==0)
-
-System.out.println(a+"is even number");
-else
-
-System.out.println(a+"is not even number");
+a=a+i;
 }
+System.out.println(a);
 }
 }
