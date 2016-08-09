@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Number
+class NaturalNumber
 {
 public static void main(String[] arg)
 {
